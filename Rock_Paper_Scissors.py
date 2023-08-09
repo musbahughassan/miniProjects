@@ -29,3 +29,6 @@ if ai_wins > user_wins:
 elif user_wins > ai_wins:
     print("-------->You Won The Match.<-------")
     print("-------->You are The Champion<-----")
+elif user_wins == ai_wins or ai_wins == user_wins:
+    print("----Tie----")
+    
